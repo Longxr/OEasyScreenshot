@@ -1,8 +1,5 @@
 # Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+intermediate
 
 # Precompiled Headers
 *.gch
@@ -12,6 +9,7 @@
 *.so
 *.dylib
 *.dll
+bin
 
 # Fortran module files
 *.mod
@@ -27,3 +25,6 @@
 *.exe
 *.out
 *.app
+
+build-OEScreenshot-Desktop_Qt_5_7_0_MinGW_32bit-Debug
+
