@@ -18,14 +18,16 @@ SOURCES += \
     oeamplifier.cpp \
     oecommonhelper.cpp \
     oemodelview.cpp \
-    oescreenshot.cpp
+    oescreenshot.cpp \
+    ToolBarWidget.cpp
 
 HEADERS +=\
     oescreenshot_global.h \
     oeamplifier.h \
     oecommonhelper.h \
     oemodelview.h \
-    oescreenshot.h
+    oescreenshot.h \
+    ToolBarWidget.h
 
 unix {
     target.path = /usr/lib
@@ -34,3 +36,6 @@ unix {
 
 RESOURCES += \
     res.qrc
+
+FORMS += \
+    ToolBarWidget.ui

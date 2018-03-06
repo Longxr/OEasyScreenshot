@@ -26,5 +26,6 @@
         <file>res/Text@2x.png</file>
         <file>res/Undo.png</file>
         <file>res/Undo@2x.png</file>
+        <file>res/eraser.png</file>
     </qresource>
 </RCC>
