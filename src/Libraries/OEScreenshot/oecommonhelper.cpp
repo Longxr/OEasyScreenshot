@@ -102,17 +102,18 @@ bool OECommonHelper::getSmallestWindowFromCursor(QRect& out_rect) {
     hwnd = ::ChildWindowFromPointEx(::GetDesktopWindow(),
                         pt, CWP_SKIPDISABLED | CWP_SKIPINVISIBLE);
     if (hwnd != NULL) {
-        HWND temp_hwnd;
-        temp_hwnd = hwnd;
-        while (true) {
-            ::GetCursorPos(&pt);
-            ::ScreenToClient(temp_hwnd, &pt);
-            temp_hwnd = ::ChildWindowFromPointEx(temp_hwnd,
-                                     pt, CWP_SKIPINVISIBLE);
-            if (temp_hwnd == NULL || temp_hwnd == hwnd)
-                break;
-            hwnd = temp_hwnd;
-        }
+//  查找子窗口的子窗口,想获取完整任务栏，故注释掉
+//        HWND temp_hwnd;
+//        temp_hwnd = hwnd;
+//        while (true) {
+//            ::GetCursorPos(&pt);
+//            ::ScreenToClient(temp_hwnd, &pt);
+//            temp_hwnd = ::ChildWindowFromPointEx(temp_hwnd,
+//                                     pt, CWP_SKIPINVISIBLE);
+//            if (temp_hwnd == NULL || temp_hwnd == hwnd)
+//                break;
+//            hwnd = temp_hwnd;
+//        }
         RECT temp_window;
         ::GetWindowRect(hwnd, &temp_window);
         out_rect.setRect(temp_window.left,temp_window.top,

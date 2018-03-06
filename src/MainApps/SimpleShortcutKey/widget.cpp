@@ -7,7 +7,7 @@
 #endif
 
 #include "OEScreenshot/oescreenshot.h"
-#include "qxt/qxtglobalshortcut.h"
+#include "QxtGlobalShortcut/qxtglobalshortcut.h"
 
 Widget::Widget(QWidget *parent) :
     QWidget(parent),openScreenshotButton_(new QPushButton(this)) {

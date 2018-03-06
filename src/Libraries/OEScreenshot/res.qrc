@@ -1,0 +1,30 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/Arrow.png</file>
+        <file>res/Arrow@2x.png</file>
+        <file>res/Brush.PNG</file>
+        <file>res/Brush@2x.png</file>
+        <file>res/Circle.png</file>
+        <file>res/Circle@2x.png</file>
+        <file>res/Exit.png</file>
+        <file>res/Exit@2x.png</file>
+        <file>res/Finish.png</file>
+        <file>res/Finish@2x.png</file>
+        <file>res/LargeMagnifier.png</file>
+        <file>res/line_weight_3.png</file>
+        <file>res/line_weight_5.png</file>
+        <file>res/Magnifier.png</file>
+        <file>res/Mosaic.png</file>
+        <file>res/Mosaic@2x.png</file>
+        <file>res/Rectangle.png</file>
+        <file>res/Rectangle@2x.png</file>
+        <file>res/Save.png</file>
+        <file>res/Save@2x.png</file>
+        <file>res/SinglePoint.PNG</file>
+        <file>res/SinglePoint@2x.png</file>
+        <file>res/Text.png</file>
+        <file>res/Text@2x.png</file>
+        <file>res/Undo.png</file>
+        <file>res/Undo@2x.png</file>
+    </qresource>
+</RCC>

@@ -13,7 +13,8 @@ include(./../../Path.pri)
 
 TARGET = SimpleShortcutKey
 TEMPLATE = app
-INCLUDEPATH += "../../src/"
+
+INCLUDEPATH += ../../src \
 
 SOURCES += main.cpp\
         widget.cpp
