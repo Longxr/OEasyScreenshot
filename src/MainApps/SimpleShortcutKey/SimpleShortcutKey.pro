@@ -14,7 +14,6 @@ include(./../../Path.pri)
 TARGET = SimpleShortcutKey
 TEMPLATE = app
 INCLUDEPATH += "../../src/"
-include(qxt/qxt.pri)
 
 SOURCES += main.cpp\
         widget.cpp
@@ -26,4 +25,4 @@ INCLUDEPATH += \
     $$PWD/../../Libraries \
 
 LIBS += \
-    -L$$DESTDIR -lOEScreenshot \
+    -L$$DESTDIR -lOEScreenshot -lQxtGlobalShortcut \

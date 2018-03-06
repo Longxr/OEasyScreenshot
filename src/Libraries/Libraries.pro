@@ -1,6 +1,7 @@
 TEMPLATE = subdirs
 
 SUBDIRS += \
-    OEScreenshot
+    OEScreenshot \
+    QxtGlobalShortcut
 
 CONFIG += ordered
