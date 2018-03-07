@@ -19,7 +19,9 @@ SOURCES += \
     oecommonhelper.cpp \
     oemodelview.cpp \
     oescreenshot.cpp \
-    ToolBarWidget.cpp
+    ToolBarWidget.cpp \
+    oescreen.cpp \
+    oerect.cpp
 
 HEADERS +=\
     oescreenshot_global.h \
@@ -27,7 +29,9 @@ HEADERS +=\
     oecommonhelper.h \
     oemodelview.h \
     oescreenshot.h \
-    ToolBarWidget.h
+    ToolBarWidget.h \
+    oescreen.h \
+    oerect.h
 
 unix {
     target.path = /usr/lib
